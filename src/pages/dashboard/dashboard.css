@@ -1,0 +1,17 @@
+@keyframes ellipsis {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 0.2;
+    }
+    66% {
+      opacity: 0.5;
+    }
+  }
+  
+  .animate-ellipsis {
+    animation: ellipsis 1s ease infinite;
+  }
+  
