@@ -50,60 +50,14 @@ To install the project dependencies, follow these steps:
 ```
 cd rumi-chat
 npm install
+npm run dev
 ```
 
 
 Open your browser and navigate to http://localhost:5173. You should see the app running. Any changes you make to the source files will automatically be reflected in the browser.
 
 
-## Frontend Development Task
 
-### Context
-Rumi is an AI-powered chatbot interface that currently supports basic text-based conversations. As we expand its capabilities, we need to enhance the user experience by enabling the chatbot to display various types of data visualizations and rich media content in its responses. This will allow Rumi to better present statistical data, trends, and visual information to users in an interactive and engaging way.
-
-For example, when a user asks about "sales trends over the last 6 months", instead of just providing numbers in text, Rumi should be able to display this information as an interactive line chart. Similarly, when discussing "market share", it should be able to show a pie chart, or when comparing data, present it in a sortable table format.
-
-### Required Features
-
-1. **Rich Text Formatting**
-   - Support for markdown-style text formatting
-   - Code blocks with syntax highlighting
-   - Bulleted and numbered lists
-   - Links and quotes
-
-2. **Data Visualization Components**
-   - Tables
-     - Responsive design
-     - Optional: pagination for large datasets
-   - Charts
-     - Pie charts for displaying proportional data
-     - Line charts for temporal data
-     - Bar charts for comparative data
-   
-3. **Media Support**
-   - Image display with lazy loading
-   - Optional: basic image carousel for multiple images
-
-### Technical Requirements
-
-- Use React and TypeScript
-- Implement responsive design principles
-- Use a charting library of your choice (e.g., Chart.js, D3.js, or Recharts)
-- Handle loading and error states appropriately
-
-### Evaluation Criteria
-
-- Feature completeness
-- Code organization and architecture
-- Component reusability
-- UI/UX design choices
-- Error handling
-- Code quality and documentation
-
-### Bonus Points
-
-- Animations for transitions between different data formats
-- Export functionality for charts and tables
 - Unit tests for components
 
 ## IMPORTANT NOTE
