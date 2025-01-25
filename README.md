@@ -55,12 +55,3 @@ npm run dev
 
 
 Open your browser and navigate to http://localhost:5173. You should see the app running. Any changes you make to the source files will automatically be reflected in the browser.
-
-
-
-- Unit tests for components
-
-## IMPORTANT NOTE
-- Make sure that you understand the existing code and the code that YOU write.
-- Next round will involve further coding on this assignment, so make sure you fully understand what you have submitted.
-- This is a front end task, so the UI should look good without errors. Quality over quantity(of features)
